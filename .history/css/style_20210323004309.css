@@ -31,7 +31,7 @@ body {
     text-transform: uppercase;
     font-weight: 700;
 }
-.product button {
+button {
     border: 0;
     margin: 15px 0;
     background-color: #f1c40f;

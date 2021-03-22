@@ -31,7 +31,7 @@ body {
     text-transform: uppercase;
     font-weight: 700;
 }
-.product button {
+.product, button {
     border: 0;
     margin: 15px 0;
     background-color: #f1c40f;
@@ -103,7 +103,10 @@ header {
     align-items: center;
     background-color: #eee;
 }
-img {
+.logo {
+    width: 60vw;
+}
+ img {
     width: 100%;
     height: 100%;
     max-width: 300px;
@@ -112,13 +115,4 @@ img {
     align-items: center;
     text-align: center;
     margin-left: 20px;
-}
-#how-it-works {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-iframe {
-    max-width: 560px;
-    width: 100%;
 }
